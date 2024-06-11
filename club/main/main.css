@@ -1,0 +1,20 @@
+body {
+	margin: 0;
+}
+
+[mol_view_root] {
+	width: 100vw;
+	height: 100vh;
+}
+
+[club_main] {
+	width: 500px;
+}
+
+[club_post] {
+	width: 840px;
+}
+
+[club_main_body_content] {
+	height: 100%;
+}
