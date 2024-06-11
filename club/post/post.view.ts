@@ -66,11 +66,18 @@ namespace $.$$ {
 	
 	export class $club_post extends $.$club_post {
 
+		@ $mol_mem
+		authorization() {
+			return false
+		}
+
 		post_url() {
+
 			return decodeURI($mol_state_arg.value( 'post' ) + '.json' || '')
 		}
 
 		comments_url() {
+			if(!this.authorization()) return ''
 			return decodeURI($mol_state_arg.value( 'post' ) + '/comments.json' || '')
 		}
 

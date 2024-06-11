@@ -39,19 +39,11 @@ namespace $.$$ {
 	
 	export class $club_main extends $.$club_main {
 		@ $mol_mem
-		page_number(next?: number) {
-			const n = next === undefined ? undefined : next < 1 ? '1' : next.toString()
-			const arg = this.$.$mol_state_arg.value('page', n)
-			return arg === null ? 1 : Number(arg)
+		page_number(next: number = 1) {
+			const n = Number.parseInt(this.$.$mol_state_arg.value('page', next.toString()) || '1')
+			const a = (n === undefined || n < 1) ? 1 : n
+			return a
 		}
-		// @ $mol_mem
-		// a(next?: number) { return this.$.$mol_state_arg.value('page', next) ?? 0 }
-		// @ $mol_mem
-		// b(next = 1) {
-		// 	if(next) $mol_state_arg.value('page', next.toString() )
-		// 	console.log(Number($mol_state_arg.value('page')))
-		// 	return Number($mol_state_arg.value('page'))
-		// }
 
 		url() {
 			return `https://vas3k.club/all/new/feed.json?page=${this.page_number()}` 
