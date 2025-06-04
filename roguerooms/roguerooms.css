@@ -1,0 +1,38 @@
+body {
+	margin: 0 !important;
+	width: 100vw !important;
+	height: 100vh !important;
+	overflow: hidden !important;
+	box-sizing: border-box !important;
+}
+
+[roguerooms] {
+	display: grid;
+	grid: 50px 40px calc(100vh - 40px) / 1fr 1fr;
+	grid-template-areas:
+		"header header"
+		"inventory options"
+		"blueprint options";
+}
+
+[roguerooms] > * {
+	padding: var(--mol_gap_space);
+}
+
+[roguerooms_header] {
+	grid-area: header;
+}
+
+[roguerooms_inventory] {
+	grid-area: inventory;
+}
+
+[roguerooms_blueprint] {
+	grid-area: blueprint;
+	border: 1px solid tan;
+	overflow: hidden;
+}
+
+[roguerooms_options] {
+	grid-area: options;
+}

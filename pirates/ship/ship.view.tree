@@ -1,0 +1,4 @@
+$pirates_ship $pirates_sprite
+	delta_time? 1
+	angle? 0
+	- position? $pirates_math_vector2

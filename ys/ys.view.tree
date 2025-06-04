@@ -1,0 +1,20 @@
+
+$ys_main_demo $mol_book2_catalog
+	plugins /
+		<= Theme $mol_theme_auto
+	menu_title \YuryScript's Apps
+	menu_tools /
+		<= Lighter $mol_lights_toggle
+	spreads *
+		page_demo <= Page_demo $mol_page
+			title \Пример заголовка
+			body / <= Body / \Пример тела страницы
+			style *
+				min-width \800px
+		zoomable_demo <= Zoomable_demo $mol_page
+			title \Zoomable
+			body / <= Zoomable_instance $ys_zoomable
+				content /
+					\Пример текста
+		
+$ys_main $ys_main_demo

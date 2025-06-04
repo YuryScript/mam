@@ -1,0 +1,31 @@
+$roguerooms $mol_view
+	plugins /
+		<= Theme $mol_theme_auto
+	debug? true
+	sub /
+		<= Header $roguerooms_header
+		<= Inventory $roguerooms_inventory
+		<= Blueprint $roguerooms_blueprint
+		<= Options $roguerooms_options
+
+$roguerooms_header $mol_view
+	sub /
+		<= Title $mol_paragraph
+			line_height 50
+			title \Rogue Rooms
+
+$roguerooms_inventory $mol_view
+	sub /
+		\Активы игрока
+
+$roguerooms_blueprint $roguerooms_zoomable
+	cursor? /
+		0
+		0
+	selected_path? null
+	content /
+		\Тут план здания
+
+$roguerooms_options $mol_view
+	sub /
+		\Тут например головоломка или мини игра

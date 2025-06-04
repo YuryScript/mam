@@ -1,0 +1,12 @@
+
+
+$pirates $mol_view
+	delta_time? 1
+	time? 0
+	debug? true
+	sub /
+		<= Camera $pirates_camera
+			delta_time? <=> delta_time?
+
+$pirates_block $mol_view
+

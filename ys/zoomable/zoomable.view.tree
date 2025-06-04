@@ -1,0 +1,33 @@
+$ys_zoomable $mol_view
+	zoom? 1
+	attr *
+		tabindex 0
+	position? /
+		0
+		0
+	event *
+		wheel? <=> event_wheel? null
+		keypress? <=> event_key? null
+		mousedown? <=> event_mouse_down? null
+		mouseup? <=> event_mouse_up? null
+		mousemove? <=> event_mouse_move? null
+		mouseleave? <=> event_mouse_leave? null
+	content /
+	sub /
+		<= ZoomComponent $mol_view
+			sub <= content
+			style <= styleForZoomComponent null
+		<= Controls $mol_view
+			sub /
+				<= ZoomInButton $mol_button
+					click? <= zoomIn? null
+					sub /
+						<= I $mol_icon_magnify_plus_outline
+				<= ZoomOutButton $mol_button
+					click? <= zoomOut? null
+					sub /
+						<= O $mol_icon_magnify_minus_outline
+				<= ZoomReset $mol_button
+					click? <= reset? null
+					sub /
+						<= R $mol_icon_backup_restore
