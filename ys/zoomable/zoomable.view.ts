@@ -1,12 +1,6 @@
 namespace $.$$ {
 	
 	export class $ys_zoomable extends $.$ys_zoomable {
-		constructor() {
-			super()
-			this.log()
-		}
-
-		destructor(): void {}
 
 		@ $mol_mem
 		position(next = [0, 0]) {
@@ -56,7 +50,6 @@ namespace $.$$ {
 			return next
 		}
 
-		@ $mol_action
 		zoomIn() {
 			const [min, max] = this.zoomLimits()
 			const currentZoom = this.zoom()
@@ -64,7 +57,6 @@ namespace $.$$ {
 			this.zoom(newZoom)
 		}
 
-		@ $mol_action
 		zoomOut() {
 			const [min, max] = this.zoomLimits()
 			const currentZoom = this.zoom()
@@ -72,7 +64,6 @@ namespace $.$$ {
 			this.zoom(newZoom)
 		}
 
-		@ $mol_action
 		reset() {
 			this.position([0, 0])
 			this.zoom(1)
@@ -84,13 +75,13 @@ namespace $.$$ {
 
 			return {
 				...this.style(),
+				cursor: this.isDragging() ? 'crosshair' : 'auto',
 				left: (pos[0] * this.zoom()) + 'px',
 				top: (pos[1] * this.zoom()) + 'px',
 				transform: `scale(${this.zoom()})`,
 			}
 		}
 
-		@ $mol_action
 		event_wheel( event: WheelEvent ) {
 			if( event.defaultPrevented ) return
 
@@ -144,22 +135,14 @@ namespace $.$$ {
 			return event
 		}
 
-		@ $mol_action
 		event_mouse_up(event: MouseEvent) {
 			if (event.button === 1) {
 				this.isDragging(false)
 			}
 		}
 
-		@ $mol_action
 		event_mouse_leave(event: MouseEvent) {
 			this.isDragging(false)
-		}
-
-		@ $mol_mem
-		log() {
-			// console.log(this.zoom())
-			console.log(this.isDragging())
 		}
 	}
 }
