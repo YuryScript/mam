@@ -1,0 +1,3 @@
+$ys_theme_nes $mol_plugin
+	attr * mol_theme <= theme \$ys_theme_nes
+	

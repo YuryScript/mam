@@ -11,10 +11,16 @@ $ys_main_demo $mol_book2_catalog
 			body / <= Body / \Пример тела страницы
 			style *
 				min-width \800px
+		win7_demo <= Win7_demo $ys_theme_win7_demo
+			title \Windows 7 тема
 		zoomable_demo <= Zoomable_demo $mol_page
 			title \Zoomable
 			body / <= Zoomable_instance $ys_zoomable
 				content /
 					\Пример текста
+		mathDarts_demo <= MathDarts_demo $mol_page
+			title \Math Darts
+			body /
+				<= MathDarts_instance $ys_mathDarts
 		
 $ys_main $ys_main_demo

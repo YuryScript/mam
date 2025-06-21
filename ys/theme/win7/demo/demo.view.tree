@@ -1,0 +1,17 @@
+$ys_theme_win7_demo $mol_theme_demo
+	plugins /
+		<= Theme $ys_theme_win7
+	sub /
+		<= items $mol_list
+			sub /
+				<= Button1 $mol_button_major
+				<= Button2 $mol_button_minor
+				<= Button3 $mol_button_copy
+				<= Button4 $mol_button_download
+				<= Button5 $mol_button_open
+				<= Button6 $mol_button_share
+				<= Button7 $mol_button_typed
+		<= text $mol_text_demo
+		^
+
+
