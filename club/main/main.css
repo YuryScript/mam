@@ -18,3 +18,17 @@ body {
 [club_main_body_content] {
 	height: 100%;
 }
+
+/* [mol_view_error], */
+[mol_view][mol_view_error]:not([mol_view_error="Promise"], [mol_view_error="$mol_promise_blocker"]) {
+		background-image: repeating-linear-gradient( -45deg, #141414, #141414 .5rem, #ffe600 .5rem, #ffe600 1rem );
+		color: #fff;
+		/* text-shadow: 
+			-1px -1px 0px #000,
+			1px -1px 0px #000,
+			-1px 1px 0px #000,
+			1px 1px 0px #000; */
+		/* text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000; */
+		/* text-stroke: 3px #000; */
+		text-shadow: black 0px 0px 2px; 
+}

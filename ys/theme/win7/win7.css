@@ -1,0 +1,21 @@
+:root {
+	--mol_theme_luma: 1;
+	--mol_theme_image: none;
+	--mol_theme_spirit: hsl( 0deg, 0%, 100%, .75 );
+	--mol_theme_back: oklch( 92% .01 var(--mol_theme_hue) );
+    --mol_theme_card: oklch( 99% .01 var(--mol_theme_hue) / .5 );
+    --mol_theme_field: oklch( 100% 0 var(--mol_theme_hue) / .5 );
+    --mol_theme_hover: oklch( 70% 0 var(--mol_theme_hue) / .1 );
+    --mol_theme_text: oklch( 20% 0 var(--mol_theme_hue) );
+    --mol_theme_shade: oklch( 60% 0 var(--mol_theme_hue) );
+    --mol_theme_line: oklch( 50% 0 var(--mol_theme_hue) / .25 );
+    --mol_theme_focus: oklch( 60% .2 calc( var(--mol_theme_hue) + 180deg ) );
+    --mol_theme_control: oklch( 40% .15 var(--mol_theme_hue) );
+    --mol_theme_current: oklch( 50% .2 calc( var(--mol_theme_hue) - var(--mol_theme_hue_spread) ) );
+    --mol_theme_special: oklch( 50% .2 calc( var(--mol_theme_hue) + var(--mol_theme_hue_spread) ) );
+	--mol_gap_block: .75rem;
+	--mol_gap_text: .5rem .75rem;
+	--mol_gap_round: .25rem;
+	--mol_gap_space: .25rem;
+	--mol_gap_blur: .5rem;
+}

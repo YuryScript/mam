@@ -11,6 +11,8 @@ $ys_main_demo $mol_book2_catalog
 			body / <= Body / \Пример тела страницы
 			style *
 				min-width \800px
+		nes_demo <= Nes_demo $ys_theme_nes_demo
+			title \NES тема
 		win7_demo <= Win7_demo $ys_theme_win7_demo
 			title \Windows 7 тема
 		zoomable_demo <= Zoomable_demo $mol_page
