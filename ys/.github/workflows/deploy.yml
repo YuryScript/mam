@@ -1,4 +1,4 @@
-name: Deploy
+name: Deploy YS
 
 on:
   workflow_dispatch:
