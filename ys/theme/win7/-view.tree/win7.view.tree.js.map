@@ -1,0 +1,10 @@
+{
+	"version": 3,
+	"sources": [
+		"ys/theme/win7/win7.view.tree"
+	],
+	"sourcesContent": [
+		"$ys_theme_win7 $mol_plugin\n\tattr * mol_theme <= theme \\$ys_theme_win7\n\t\n"
+	],
+	"mappings": "AAAA,AAAA,2CAAe,wBAAf;AAAA,AACqB;AAAA,AAAA,UAAO,gBAAP;AAAA;AAApB;AAAA,AAAA,UAAK,CAAE,aAAU,KAAG,QAAH,CAAZ,CAAL;AAAA;AADD,CAAA;"
+}

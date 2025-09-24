@@ -1,0 +1,10 @@
+{
+	"version": 3,
+	"sources": [
+		"pirates/sprite/sprite.view.tree"
+	],
+	"sourcesContent": [
+		"$pirates_sprite $mol_view\n\tdelta_time? 1\n\tangle? 0\n\tposition? $pirates_math_vector2\n\tasset_pathname? \\/pirates/assets/icons/flair_disabled_cross_outline.svg\n\tauto /\n\t\t<= update\n\t\t<= log\n\t\t<= onLoad\n"
+	],
+	"mappings": "AAAA,AAAA,6CAAgB,sBAAhB;AAAA,AACC;AAAA,AAAA;AAAA,UAAY,CAAZ;AAAA;AACA;AAAA,AAAA;AAAA,UAAO,CAAP;AAAA;AACA;AAAA,AAAA;AAAU,iDAAV;AAAA,UAAU,GAAV;AAAA;AACA;AAAA,AAAA;AAAA,UAAiB,wDAAjB;AAAA;AACA;AAAA,AAAA,UAAK;AAAA,AACJ,SAAG,SAAH,CADI;AAEJ,SAAG,MAAH,CAFI;AAGJ,SAAG,SAAH;AAHI,CAAL;AAAA;AALD,CAAA;AACC,YADD,CACC,2CADD;AAEC,YAFD,CAEC,sCAFD;AAGC,YAHD,CAGC,yCAHD;AAIC,YAJD,CAIC,+CAJD;"
+}

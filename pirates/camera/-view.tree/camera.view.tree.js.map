@@ -1,0 +1,10 @@
+{
+	"version": 3,
+	"sources": [
+		"pirates/camera/camera.view.tree"
+	],
+	"sourcesContent": [
+		"$pirates_camera $mol_view\n\tdom_name \\camera\n\tdelta_time? 1\n\tposition? $pirates_math_vector2\n\tzoom? 1\n\tauto /\n\t\t<= update\n\t\t<= log\n\tevent *\n\t\twheel? <=> event_wheel? null\n\t\tkeydown? <=> event_key? null\n\tsub /\n\t\t<= Test $pirates_sprite\n\t\t\tasset_pathname? \\/pirates/assets/effects/explosion1.png\n\t\t\tposition? <= positionT? $pirates_math_vector2 /\n\t\t\t\t200\n\t\t\t\t100\n\t\t\tdelta_time? <=> delta_time?\n\t\t<= Test2 $pirates_sprite\n\t\t\tangle? 1.4\n\t\t\tdelta_time? <=> delta_time?\n\t\t<= Test3 $pirates_ship\n\t\t\tposition? <= positionA? $pirates_math_vector2 /\n\t\t\t\t100\n\t\t\t\t100\n\t\t\tangle? 2.3\n\t\t\tdelta_time? <=> delta_time?\n\n"
+	],
+	"mappings": "AAAA,AAAA,6CAAgB,sBAAhB;AAAA,AASa;AAAA,AAAA;AAAA,UAAa,IAAb;AAAA;AACE;AAAA,AAAA;AAAA,UAAW,IAAX;AAAA;AAIC;AAAA,AAAA;AAAW,gDACvB,GADuB,EAEvB,GAFuB,CAAX;AAAA,UAAW,GAAX;AAAA;AAFX;AAAA,AAAK,2CAAL;AACF,qCAAiB,wCAAjB,CADE;AAEF,+BAAU,KAAG,YAAH,CAAV,CAFE;AAKF,iCAAY,KAAI,iBAAJ,CAAZ,CALE;AAAA,UAAK,GAAL;AAAA;AAMA;AAAA,AAAM,2CAAN;AACF,4BAAO,GAAP,CADE;AAEF,iCAAY,KAAI,iBAAJ,CAAZ,CAFE;AAAA,UAAM,GAAN;AAAA;AAIW;AAAA,AAAA;AAAW,gDACvB,GADuB,EAEvB,GAFuB,CAAX;AAAA,UAAW,GAAX;AAAA;AADX;AAAA,AAAM,yCAAN;AACF,+BAAU,KAAG,YAAH,CAAV,CADE;AAIF,4BAAO,GAAP,CAJE;AAKF,iCAAY,KAAI,iBAAJ,CAAZ,CALE;AAAA,UAAM,GAAN;AAAA;AApBJ;AAAA,AAAA,UAAU,QAAV;AAAA;AACA;AAAA,AAAA;AAAA,UAAY,CAAZ;AAAA;AACA;AAAA,AAAA;AAAU,iDAAV;AAAA,UAAU,GAAV;AAAA;AACA;AAAA,AAAA;AAAA,UAAM,CAAN;AAAA;AACA;AAAA,AAAA,UAAK,CACJ,KAAG,SAAH,CADI,EAEJ,KAAG,MAAH,CAFI,CAAL;AAAA;AAGA;AAAA,AAAA,UAAM,CACL,mBAAO,KAAI,kBAAJ,CADF,EAEL,qBAAS,KAAI,gBAAJ,CAFJ,CAAN;AAAA;AAGA;AAAA,AAAA,UAAI;AAAA,AACH,SAAG,OAAH,CADG;AAOH,SAAG,QAAH,CAPG;AAUH,SAAG,QAAH;AAVG,CAAJ;AAAA;AAXD,CAAA;AASa,YATb,CASa,4CATb;AAUe,YAVf,CAUe,0CAVf;AAcgB,YAdhB,CAcgB,0CAdhB;AAYK,YAZL,CAYK,qCAZL;AAkBK,YAlBL,CAkBK,sCAlBL;AAsBgB,YAtBhB,CAsBgB,0CAtBhB;AAqBK,YArBL,CAqBK,sCArBL;AAEC,YAFD,CAEC,2CAFD;AAGC,YAHD,CAGC,yCAHD;AAIC,YAJD,CAIC,qCAJD;"
+}

@@ -1,0 +1,10 @@
+{
+	"version": 3,
+	"sources": [
+		"taxes/taxes.view.tree"
+	],
+	"sourcesContent": [
+		"$taxes $mol_page\n\tplugins /\n\t\t<= Theme $mol_theme_auto\n\tbody /\n\t\t\\123\n"
+	],
+	"mappings": "AAAA,AAAA,2BAAO,sBAAP;AAAA,AAEK;AAAA,AAAM,2CAAN;AAAA,UAAM,GAAN;AAAA;AADJ;AAAA,AAAA,UAAQ,CACP,KAAG,QAAH,CADO,CAAR;AAAA;AAEA;AAAA,AAAA,UAAK,CACH,KADG,CAAL;AAAA;AAHD,CAAA;AAEK,YAFL,CAEK,6BAFL;"
+}

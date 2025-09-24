@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"sources": [
+		"ys/theme/win7/win7.view.tree"
+	],
+	"mappings": "AAAA;AAAA;AAAA,AAAA,4BAAe,oBAAf;AACqB,AAAA,YAAO;AAA3B,AAAA,WAAK;AAAA,AAAE,gBAAa,YADrB,cACqB,WAAb;AAAF;AADN;AAAA;AAAA;",
+	"file": "win7.view.tree.d.ts",
+	"sourceRoot": "../../../.."
+}

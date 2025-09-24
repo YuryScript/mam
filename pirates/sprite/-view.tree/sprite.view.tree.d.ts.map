@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"sources": [
+		"pirates/sprite/sprite.view.tree"
+	],
+	"mappings": "AAAA;AAAA;AAAA,AAAA,6BAAgB,kBAAhB;AACC,AAAA,qBAAY,MAAZ,IAAY;AACZ,AAAA,gBAAO,MAAP,IAAO;AACP,AAAA,mBAAU,qBAAV,IAAU;AACV,AAAA,yBAAiB,MAAjB,IAAiB;AACjB,AAAA,WAAK;AALN;AAAA;AAAA;",
+	"file": "sprite.view.tree.d.ts",
+	"sourceRoot": "../../.."
+}

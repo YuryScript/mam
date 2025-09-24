@@ -1,0 +1,10 @@
+{
+	"version": 3,
+	"sources": [
+		"roguerooms/roguerooms.view.tree"
+	],
+	"sourcesContent": [
+		"$roguerooms $mol_view\n\tplugins /\n\t\t<= Theme $mol_theme_auto\n\tdebug? true\n\tsub /\n\t\t<= Header $roguerooms_header\n\t\t<= Inventory $roguerooms_inventory\n\t\t<= Blueprint $roguerooms_blueprint\n\t\t<= Options $roguerooms_options\n\n$roguerooms_header $mol_view\n\tsub /\n\t\t<= Title $mol_paragraph\n\t\t\tline_height 50\n\t\t\ttitle \\Rogue Rooms\n\n$roguerooms_inventory $mol_view\n\tsub /\n\t\t\\Активы игрока\n\n$roguerooms_blueprint $roguerooms_zoomable\n\tcursor? /\n\t\t0\n\t\t0\n\tselected_path? null\n\tcontent /\n\t\t\\Тут план здания\n\n$roguerooms_options $mol_view\n\tsub /\n\t\t\\Тут например головоломка или мини игра\n"
+	],
+	"mappings": "AAAA,AAAA,qCAAY,sBAAZ;AAAA,AAEK;AAAA,AAAM,2CAAN;AAAA,UAAM,GAAN;AAAA;AAGA;AAAA,AAAO,8CAAP;AAAA,UAAO,GAAP;AAAA;AACA;AAAA,AAAU,iDAAV;AAAA,UAAU,GAAV;AAAA;AACA;AAAA,AAAU,iDAAV;AAAA,UAAU,GAAV;AAAA;AACA;AAAA,AAAQ,+CAAR;AAAA,UAAQ,GAAR;AAAA;AAPJ;AAAA,AAAA,UAAQ,CACP,KAAG,QAAH,CADO,CAAR;AAAA;AAEA;AAAA,AAAA;AAAA,UAAO,IAAP;AAAA;AACA;AAAA,AAAA,UAAI;AAAA,AACH,SAAG,SAAH,CADG;AAEH,SAAG,YAAH,CAFG;AAGH,SAAG,YAAH,CAHG;AAIH,SAAG,UAAH;AAJG,CAAJ;AAAA;AAJD,CAAA;AAEK,YAFL,CAEK,kCAFL;AAKK,YALL,CAKK,mCALL;AAMK,YANL,CAMK,sCANL;AAOK,YAPL,CAOK,sCAPL;AAQK,YARL,CAQK,oCARL;AAGC,YAHD,CAGC,kCAHD;AAUA,mDAAmB,sBAAnB;AAAA,AAEK;AAAA,AAAM,0CAAN;AACF,8BAAY,EAAZ,CADE;AAEF,wBAAO,aAAP,CAFE;AAAA,UAAM,GAAN;AAAA;AADJ;AAAA,AAAA,UAAI,CACH,KAAG,QAAH,CADG,CAAJ;AAAA;AADD,CAVA;AAYK,YAFL,CAEK,yCAZL;AAgBA,yDAAsB,sBAAtB;AAAA,AACC;AAAA,AAAA,UAAI,CACF,eADE,CAAJ;AAAA;AADD,CAhBA;AAoBA,yDAAsB,iCAAtB;AAAA,AACC;AAAA,AAAA;AAAA,UAAQ,CACP,CADO,EAEP,CAFO,CAAR;AAAA;AAGA;AAAA,AAAA;AAAA,UAAe,IAAf;AAAA;AACA;AAAA,AAAA,UAAQ,CACN,iBADM,CAAR;AAAA;AALD,CApBA;AAqBC,YADD,CACC,6CArBD;AAwBC,YAJD,CAIC,oDAxBD;AA4BA,qDAAoB,sBAApB;AAAA,AACC;AAAA,AAAA,UAAI,CACF,wCADE,CAAJ;AAAA;AADD,CA5BA;"
+}

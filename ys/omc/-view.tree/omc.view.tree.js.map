@@ -1,0 +1,10 @@
+{
+	"version": 3,
+	"sources": [
+		"ys/omc/omc.view.tree"
+	],
+	"sourcesContent": [
+		"$ys_omc $mol_view\n\tplugins /\n\t\t<= Touch $mol_touch\n\t\t\tzoom? <=> zoom? 1\n\t\t\tpan? <=> pan? /\n\t\t\t\t0\n\t\t\t\t0\n\tsub /\n\t\t<= Chunk $ys_omc_chunk\n"
+	],
+	"mappings": "AAAA,AAAA,6BAAQ,sBAAR;AAAA,AAGa;AAAA,AAAA;AAAA,UAAM,CAAN;AAAA;AACD;AAAA,AAAA;AAAA,UAAK,CACb,CADa,EAEb,CAFa,CAAL;AAAA;AAFP;AAAA,AAAM,sCAAN;AACF,2BAAM,KAAI,WAAJ,CAAN,CADE;AAEF,0BAAK,KAAI,UAAJ,CAAL,CAFE;AAAA,UAAM,GAAN;AAAA;AAMA;AAAA,AAAM,yCAAN;AAAA,UAAM,GAAN;AAAA;AAPJ;AAAA,AAAA,UAAQ,CACP,KAAG,QAAH,CADO,CAAR;AAAA;AAMA;AAAA,AAAA,UAAI,CACH,KAAG,QAAH,CADG,CAAJ;AAAA;AAPD,CAAA;AAGa,YAHb,CAGa,6BAHb;AAIY,YAJZ,CAIY,4BAJZ;AAEK,YAFL,CAEK,8BAFL;AAQK,YARL,CAQK,8BARL;"
+}

@@ -1,0 +1,10 @@
+{
+	"version": 3,
+	"sources": [
+		"pirates/ship/ship.view.tree"
+	],
+	"sourcesContent": [
+		"$pirates_ship $pirates_sprite\n\tdelta_time? 1\n\tangle? 0\n\t- position? $pirates_math_vector2\n"
+	],
+	"mappings": "AAAA,AAAA,yCAAc,4BAAd;AAAA,AACC;AAAA,AAAA;AAAA,UAAY,CAAZ;AAAA;AACA;AAAA,AAAA;AAAA,UAAO,CAAP;AAAA;AAFD,CAAA;AACC,YADD,CACC,yCADD;AAEC,YAFD,CAEC,oCAFD;"
+}

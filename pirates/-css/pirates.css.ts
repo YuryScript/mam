@@ -1,0 +1,3 @@
+namespace $ { $mol_style_attach( "pirates/pirates.css",
+ "body, [pirates_camera] {\n\tmargin: 0 !important;\n\twidth: 100vw !important;\n\theight: 100vh !important;\n\toverflow: hidden !important;\n\tbox-sizing: border-box !important;\n}\n\n[mol_view] {\n\ttransition-duration: 0s;\n}\n\n[pirates_block] {\n\tposition: absolute;\n\tdisplay: block;\n\twidth: 100vw;\n\theight: 100vh;\n}\n\n[pirates_camera], [pirates_sprite] {\n\tposition: absolute;\n\tpointer-events: none;\n}\n"
+) }

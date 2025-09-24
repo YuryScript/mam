@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"sources": [
+		"taxes/taxes.view.tree"
+	],
+	"mappings": "AAAA;AAAA;AAAA,AAAA,oBAAO,kBAAP;AAEK,AAAA,YAAM;AADV,AAAA,cAAQ;AAER,AAAA,WAAK;AAHN;AAAA;AAAA;",
+	"file": "taxes.view.tree.d.ts",
+	"sourceRoot": "../.."
+}

@@ -1,0 +1,10 @@
+{
+	"version": 3,
+	"sources": [
+		"pirates/pirates.view.tree"
+	],
+	"sourcesContent": [
+		"\n\n$pirates $mol_view\n\tdelta_time? 1\n\ttime? 0\n\tdebug? true\n\tsub /\n\t\t<= Camera $pirates_camera\n\t\t\tdelta_time? <=> delta_time?\n\n$pirates_block $mol_view\n\n"
+	],
+	"mappings": "AAAA,AAEA,+BAAS,sBAAT;AAAA,AAKK;AAAA,AAAO,2CAAP;AACF,iCAAY,KAAI,iBAAJ,CAAZ,CADE;AAAA,UAAO,GAAP;AAAA;AAJJ;AAAA,AAAA;AAAA,UAAY,CAAZ;AAAA;AACA;AAAA,AAAA;AAAA,UAAM,CAAN;AAAA;AACA;AAAA,AAAA;AAAA,UAAO,IAAP;AAAA;AACA;AAAA,AAAA,UAAI,CACH,KAAG,SAAH,CADG,CAAJ;AAAA;AAJD,CAFA;AAOK,YALL,CAKK,gCAPL;AAGC,YADD,CACC,oCAHD;AAIC,YAFD,CAEC,8BAJD;AAKC,YAHD,CAGC,+BALD;AAUA,2CAAe,sBAAf,EAVA;"
+}

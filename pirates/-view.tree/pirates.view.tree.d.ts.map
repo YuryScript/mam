@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"sources": [
+		"pirates/pirates.view.tree"
+	],
+	"mappings": "AAAA;AAAA;AAAA,AAQG;AAAA,AAAgB,cANnB,QAMmB;AAAA;AAAhB,cADS,eACT;AAAA;AANH,sBAAS,kBAAT;AAKK,AAAA,aAAO;AAJX,AAAA,qBAAY,MAAZ,IAAY;AACZ,AAAA,eAAM,MAAN,IAAM;AACN,AAAA,gBAAO,OAAP,IAAO;AACP,AAAA,UAAI;AAJL;AAFA;AAUA,4BAAe,kBAAf;AAAA;AAVA;AAAA;",
+	"file": "pirates.view.tree.d.ts",
+	"sourceRoot": "../.."
+}

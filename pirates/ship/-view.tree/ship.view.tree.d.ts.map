@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"sources": [
+		"pirates/ship/ship.view.tree"
+	],
+	"mappings": "AAAA;AAAA;AAAA,AAAA,2BAAc,wBAAd;AACC,AAAA,qBAAY,MAAZ,IAAY;AACZ,AAAA,gBAAO,MAAP,IAAO;AAFR;AAAA;AAAA;",
+	"file": "ship.view.tree.d.ts",
+	"sourceRoot": "../../.."
+}

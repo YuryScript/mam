@@ -1,0 +1,10 @@
+{
+	"version": 3,
+	"sources": [
+		"roguerooms/zoomable/zoomable.view.tree"
+	],
+	"sourcesContent": [
+		"$roguerooms_zoomable $mol_view\n\tzoom? 1\n\tposition? /\n\t\t0\n\t\t0\n\tevent *\n\t\twheel? <=> event_wheel? null\n\t\tkeypress? <=> event_key? null\n\t\tmousedown? <=> event_mouse_down? null\n\t\tmousemove? <=> event_mouse_move? null\n\t\tmouseup? <=> event_mouse_up? null\n\tsub /\n\t\t<= ZoomComponent $mol_view\n\t\t\tsub <= content\n\t\t\tstyle <= styleForZoomComponent\n\t\t<= Controls $mol_view\n\t\t\tsub /\n\t\t\t\t<= ZoomInButton $mol_button\n\t\t\t\t\tclick? <= zoomIn?\n\t\t\t\t\ttitle \\+\n\t\t\t\t<= ZoomOutButton $mol_button\n\t\t\t\t\tclick? <= zoomOut?\n\t\t\t\t\ttitle \\-\n\t\t\t\t<= ZoomReset $mol_button\n\t\t\t\t\tclick? <= reset?\n\t\t\t\t\ttitle \\=\n"
+	],
+	"mappings": "AAAA,AAAA,uDAAqB,sBAArB;AAAA,AAMa;AAAA,AAAA;AAAA,UAAa,IAAb;AAAA;AACG;AAAA,AAAA;AAAA,UAAW,IAAX;AAAA;AACC;AAAA,AAAA;AAAA,UAAkB,IAAlB;AAAA;AACA;AAAA,AAAA;AAAA,UAAkB,IAAlB;AAAA;AACF;AAAA,AAAA;AAAA,UAAgB,IAAhB;AAAA;AAEV;AAAA,AAAc,qCAAd;AACF,sBAAI,KAAG,UAAH,CAAJ,CADE;AAEF,wBAAM,KAAG,wBAAH,CAAN,CAFE;AAAA,UAAc,GAAd;AAAA;AAKE;AAAA,AAAa,uCAAb;AACF,4BAAO,KAAG,SAAH,CAAP,CADE;AAEF,wBAAO,GAAP,CAFE;AAAA,UAAa,GAAb;AAAA;AAGA;AAAA,AAAc,uCAAd;AACF,4BAAO,KAAG,UAAH,CAAP,CADE;AAEF,wBAAO,GAAP,CAFE;AAAA,UAAc,GAAd;AAAA;AAGA;AAAA,AAAU,uCAAV;AACF,4BAAO,KAAG,QAAH,CAAP,CADE;AAEF,wBAAO,GAAP,CAFE;AAAA,UAAU,GAAV;AAAA;AARF;AAAA,AAAS,qCAAT;AACF,sBAAI;AAAA,AACH,SAAG,eAAH,CADG;AAIH,SAAG,gBAAH,CAJG;AAOH,SAAG,YAAH;AAPG,CAAJ,CADE;AAAA,UAAS,GAAT;AAAA;AAdJ;AAAA,AAAA;AAAA,UAAM,CAAN;AAAA;AACA;AAAA,AAAA;AAAA,UAAU,CACT,CADS,EAET,CAFS,CAAV;AAAA;AAGA;AAAA,AAAA,UAAM;AAAA,AACL,uBAAO,KAAI,kBAAJ,CADF;AAEL,0BAAU,KAAI,gBAAJ,CAFL;AAGL,2BAAW,KAAI,uBAAJ,CAHN;AAIL,2BAAW,KAAI,uBAAJ,CAJN;AAKL,yBAAS,KAAI,qBAAJ;AALJ,CAAN;AAAA;AAMA;AAAA,AAAA,UAAI,CACH,KAAG,gBAAH,CADG,EAIH,KAAG,WAAH,CAJG,CAAJ;AAAA;AAXD,CAAA;AAMa,YANb,CAMa,iDANb;AAOgB,YAPhB,CAOgB,+CAPhB;AAQiB,YARjB,CAQiB,sDARjB;AASiB,YATjB,CASiB,sDATjB;AAUe,YAVf,CAUe,oDAVf;AAYK,YAZL,CAYK,mDAZL;AAiBO,YAjBP,CAiBO,kDAjBP;AAoBO,YApBP,CAoBO,mDApBP;AAuBO,YAvBP,CAuBO,+CAvBP;AAeK,YAfL,CAeK,8CAfL;AACC,YADD,CACC,0CADD;AAEC,YAFD,CAEC,8CAFD;"
+}

@@ -1,0 +1,3 @@
+namespace $ { $mol_style_attach( "roguerooms/roguerooms.css",
+ "body {\n\tmargin: 0 !important;\n\twidth: 100vw !important;\n\theight: 100vh !important;\n\toverflow: hidden !important;\n\tbox-sizing: border-box !important;\n}\n\n[roguerooms] {\n\tdisplay: grid;\n\tgrid: 50px 40px calc(100vh - 40px) / 1fr 1fr;\n\tgrid-template-areas:\n\t\t\"header header\"\n\t\t\"inventory options\"\n\t\t\"blueprint options\";\n}\n\n[roguerooms] > * {\n\tpadding: var(--mol_gap_space);\n}\n\n[roguerooms_header] {\n\tgrid-area: header;\n}\n\n[roguerooms_inventory] {\n\tgrid-area: inventory;\n}\n\n[roguerooms_blueprint] {\n\tgrid-area: blueprint;\n\tborder: 1px solid tan;\n\toverflow: hidden;\n}\n\n[roguerooms_options] {\n\tgrid-area: options;\n}\n"
+) }

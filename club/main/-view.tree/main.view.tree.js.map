@@ -1,0 +1,10 @@
+{
+	"version": 3,
+	"sources": [
+		"club/main/main.view.tree"
+	],
+	"sourcesContent": [
+		"$club_main $mol_page\n\thead /\n\t\t<= Title $mol_paragraph title \\Вастрик Клуб\n\t\t<= Lighter $mol_lights_toggle\n\tbody /\n\t\t<= Scll $mol_scroll sub / <= Scroll $mol_list rows /\n\t\t\t<= Pag1 $mol_paginator\n\t\t\t\tvalue? <=> page_number?\n\t\t\t<= Items $mol_list\n\t\t\t\trows <= list_items /\n\t\t\t\t\t<= Item*0 $mol_link\n\t\t\t\t\t\targ *\n\t\t\t\t\t\t\tpost <= item_url*\n\t\t\t\t\t\ttitle <= item_title* \\\n\t\t\t<= Pag2 $mol_paginator\n\t\t\t\tvalue? <=> page_number?\n"
+	],
+	"mappings": "AAAA,AAAA,mCAAW,sBAAX;AAAA,AAEK;AAAA,AAAM,0CAAN;AAAqB,wBAAO,cAAP,CAArB;AAAA,UAAM,GAAN;AAAA;AACA;AAAA,AAAQ,8CAAR;AAAA,UAAQ,GAAR;AAAA;AAGC;AAAA,AAAK,0CAAL;AACF,4BAAO,KAAI,kBAAJ,CAAP,CADE;AAAA,UAAK,GAAL;AAAA;AAOS;AAAA,AAAA,UAAa,EAAb;AAAA;AAHP;AAAA,AAAO,qCAAP;AACF,sBAAI,CACH,QAAK,KAAG,aAAH,CADF,CAAJ,CADE;AAGF,wBAAM,KAAG,eAAH,CAAN,CAHE;AAAA,UAAO,GAAP;AAAA;AADI;AAAA,AAAA,UAAW,CAClB,KAAG,UAAH,CADkB,CAAX;AAAA;AADN;AAAA,AAAM,qCAAN;AACF,uBAAK,KAAG,aAAH,CAAL,CADE;AAAA,UAAM,GAAN;AAAA;AAMA;AAAA,AAAK,0CAAL;AACF,4BAAO,KAAI,kBAAJ,CAAP,CADE;AAAA,UAAK,GAAL;AAAA;AATyB;AAAA,AAAO,qCAAP;AAAiB,uBAAK;AAAA,AAClD,SAAG,OAAH,CADkD;AAGlD,SAAG,QAAH,CAHkD;AASlD,SAAG,OAAH;AATkD,CAAL,CAAjB;AAAA,UAAO,GAAP;AAAA;AAA1B;AAAA,AAAK,uCAAL;AAAiB,sBAAI,CAAE,KAAG,SAAH,CAAF,CAAJ,CAAjB;AAAA,UAAK,GAAL;AAAA;AAJJ;AAAA,AAAA,UAAK,CACJ,KAAG,QAAH,CADI,EAEJ,KAAG,UAAH,CAFI,CAAL;AAAA;AAGA;AAAA,AAAA,UAAK,CACJ,KAAG,OAAH,CADI,CAAL;AAAA;AAJD,CAAA;AAEK,YAFL,CAEK,iCAFL;AAGK,YAHL,CAGK,mCAHL;AAMM,YANN,CAMM,gCANN;AAUQ,gBAVR,CAUQ,gCAVR;AAQM,YARN,CAQM,iCARN;AAcM,YAdN,CAcM,gCAdN;AAK+B,YAL/B,CAK+B,kCAL/B;AAKK,YALL,CAKK,gCALL;"
+}

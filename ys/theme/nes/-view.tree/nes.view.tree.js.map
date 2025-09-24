@@ -1,0 +1,10 @@
+{
+	"version": 3,
+	"sources": [
+		"ys/theme/nes/nes.view.tree"
+	],
+	"sourcesContent": [
+		"$ys_theme_nes $mol_plugin\n\tattr * mol_theme <= theme \\$ys_theme_nes\n\t\n"
+	],
+	"mappings": "AAAA,AAAA,yCAAc,wBAAd;AAAA,AACqB;AAAA,AAAA,UAAO,eAAP;AAAA;AAApB;AAAA,AAAA,UAAK,CAAE,aAAU,KAAG,QAAH,CAAZ,CAAL;AAAA;AADD,CAAA;"
+}

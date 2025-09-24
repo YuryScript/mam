@@ -1,0 +1,3 @@
+namespace $ { $mol_style_attach( "ys/zoomable/zoomable.css",
+ "[ys_zoomable] {\n\tposition: relative;\n\twidth: 800px;\n\theight: 800px;\n\toverflow: hidden;\n}\n\n[ys_zoomable_zoomComponent] {\n\tposition: absolute;\n\twidth: 100%;\n\theight: 100%;\n\ttransition: 0s;\n\tuser-select: none;\n\tbackground-image:\n\t\trepeating-linear-gradient(to right, rgba(0, 0, 0, 0.5) 0, rgba(0, 0, 0, 0.5) 1px, transparent 1px, transparent 20px),\n\t\trepeating-linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0, rgba(0, 0, 0, 0.5) 1px, transparent 1px, transparent 20px);\n}\n\n[ys_zoomable_controls] {\n\tposition: absolute;\n\ttop: var(--mol_gap_space);\n\tright: var(--mol_gap_space); \n\tdisplay: flex;\n\tflex-flow: row nowrap;\n\tgap: var(--mol_gap_space);\n}\n"
+) }
