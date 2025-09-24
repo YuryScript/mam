@@ -1,0 +1,9 @@
+$ys_omc $mol_view
+	plugins /
+		<= Touch $mol_touch
+			zoom? <=> zoom? 1
+			pan? <=> pan? /
+				0
+				0
+	sub /
+		<= Chunk $ys_omc_chunk

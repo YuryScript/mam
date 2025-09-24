@@ -6,6 +6,9 @@ $ys_main_demo $mol_book2_catalog
 	menu_tools /
 		<= Lighter $mol_lights_toggle
 	spreads *
+		omc_demo <= Omc_demo $ys_omc
+			style *
+				min-width \800px
 		page_demo <= Page_demo $mol_page
 			title \Пример заголовка
 			body / <= Body / \Пример тела страницы
